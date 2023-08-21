@@ -11,7 +11,7 @@
     <title>Summer Sale</title>
 </head>
 <body>
-    <!-- Header Section -->
+    
     <header class="py-8 bg-yellow-50">
         <div class="flex flex-col items-center justify-around lg:flex-row">
             <div class="flex-1 mx-auto space-y-6 text-center lg:space-y-8">
@@ -32,12 +32,12 @@
         </div>
 
     </header>
-    <!-- Header Section End -->
+    
     <main class="max-w-7xl mx-auto flex flex-col sm:flex-row gap-5 sm:justify-between  px-2 lg:px-0 pb-10">
 
-        <!-- Product Container -->
+        
         <div>
-            <!-- Kitchenware -->
+            
             <div class="pt-10">
                 <h2 class="text-black text-xl font-bold pb-4">Kitchenware</h2>
                 <div class="flex flex-wrap justify-center gap-5">
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <!-- Sportswear -->
+           
             <div class="pt-10">
                 <h2 class="text-black text-xl font-bold pb-4">Sportswear</h2>
                 <div class="flex flex-wrap justify-center gap-5">
@@ -144,7 +144,7 @@
                 </div>
             </div>
 
-            <!-- Furniture -->
+            
             <div class="pt-10">
                 <h2 class="text-black text-xl font-bold pb-4">Furniture</h2>
                 <div class="flex flex-wrap justify-center gap-5">
@@ -201,10 +201,10 @@
             <div class=" shadow-xl rounded-md border border-yellow-600 p-5 mt-5 mb-5 lg:mt-0">
                 <p class="text-lg font-bold text-black">Have coupon?</p>
                 <div class="flex my-4">
-                    <!-- coupon input field -->
+                    
                     <input type="text" id="coupon-input" placeholder="Coupon Code"
                         class="px-4 py-2 bg-transparent border rounded-tl-lg rounded-bl-lg">
-                    <!-- apply coupon btn -->
+                   
                     <button id="apply-btn"
                         class="text-white font-bold bg-[#E527B2] px-3 py-2 rounded-tr-lg rounded-br-lg "
                         onclick="applyCoupon()" disabled>Apply</button>
@@ -218,19 +218,19 @@
                 </div>
                 <div class="w-full h-[1px] bg-slate-200 my-2"></div>
                 <div>
-                    <!-- main total price -->
+                   
                     <p class="text-lg font-bold">Total Price : <span class="font-medium text-slate-400"
                             id="main-price">00</span><span class="font-medium text-slate-400"> TK</span></p>
-                    <!-- discount amount -->
+                    
                     <p class="text-lg font-bold">Discount : <span class="font-medium text-slate-400"
                             id="discount-amount">00</span><span class="font-medium text-slate-400"> TK</span></p>
-                    <!-- discounted total price -->
+                    
                     <p class="text-lg font-bold">Total : <span class="font-medium text-slate-400"
                             id="discounted-total-price">00</span><span class="font-medium text-slate-400"> TK</span></p>
                 </div>
                 <div class="w-full h-[1px] bg-slate-200 my-2"></div>
                 <div>
-                    <!-- make purchase btn -->
+                    
                     <button id="purchase-btn" disabled
                         class="text-white font-bold bg-[#E527B2] px-4 py-2 rounded-lg w-[90%] mx-4 btn"
                         onclick="my_modal_2.showModal()">Make Purchase</button>
@@ -239,7 +239,7 @@
                             <img src="images/congo.png" alt="" class="w-1/4 mx-auto">
                             <h3 class="font-bold text-3xl mt-4">Congratulations</h3>
                             <p class="py-4 text-slate-400">Your Purchase the product</p>
-                            <!-- go home btn -->
+                            
                             <button id="go-home-btn" class="text-white font-bold bg-[#E527B2] px-4 py-2 rounded-lg mx-4">Go Home</button>
                         </form>
                         <form method="dialog" class="modal-backdrop">

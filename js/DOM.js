@@ -1,14 +1,14 @@
 
-// Cart Product Entry
+
 function addProduct(productName) {
     const cartProductList = document.getElementById('cart-product-list');
     const count = cartProductList.childElementCount;
     const newElement = document.createElement('p');
-    newElement.innerHTML = `${count + 1}. ${productName}`;
+    newElement.innerHTML = (count + 1) + '. ' + productName;
     cartProductList.appendChild(newElement);
 };
 
-// get total price
+
 let totalPrice = 0;
 const totalPriceElement = document.getElementById('main-price');
 
