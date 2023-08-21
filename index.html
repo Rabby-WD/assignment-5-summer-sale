@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Header Section -->
-    <header class="py-8 bg-yellow-100">
+    <header class="py-8 bg-yellow-50">
         <div class="flex flex-col items-center justify-around lg:flex-row">
             <div class="flex-1 mx-auto space-y-6 text-center lg:space-y-8">
                 <p class="text-2xl font-medium text-center">
@@ -42,7 +42,7 @@
                 <h2 class="text-black text-xl font-bold pb-4">Kitchenware</h2>
                 <div class="flex flex-wrap justify-center gap-5">
 
-                    <div onclick="addProductEntry('K. Accessories'); addToTotal(39)" class="product-item product card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer" >
+                    <div onclick="addProduct('K. Accessories'); addToTotal(39)" class="product-item product card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer" >
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod1.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
 
-                    <div onclick="addProductEntry('K. Accessories'); addToTotal(25)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('K. Accessories'); addToTotal(25)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod2.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
 
-                    <div onclick="addProductEntry('Home Cooker'); addToTotal(49)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Home Cooker'); addToTotal(49)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod3.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -96,7 +96,7 @@
             <div class="pt-10">
                 <h2 class="text-black text-xl font-bold pb-4">Sportswear</h2>
                 <div class="flex flex-wrap justify-center gap-5">
-                    <div onclick="addProductEntry('Sports Back Cap'); addToTotal(49)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Sports Back Cap'); addToTotal(49)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod4.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -111,7 +111,7 @@
                             <p class="text-lg text-slate-400"><span>49.00</span> TK</p>
                         </div>
                     </div>
-                    <div onclick="addProductEntry('Full Jersey Set'); addToTotal(69)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Full Jersey Set'); addToTotal(69)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod5.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -126,7 +126,7 @@
                             <p class="text-lg text-slate-400"><span>69.00</span> TK</p>
                         </div>
                     </div>
-                    <div onclick="addProductEntry('Sports cates'); addToTotal(159)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Sports cates'); addToTotal(159)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod6.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -148,7 +148,7 @@
             <div class="pt-10">
                 <h2 class="text-black text-xl font-bold pb-4">Furniture</h2>
                 <div class="flex flex-wrap justify-center gap-5">
-                    <div onclick="addProductEntry('Single Relax Chair'); addToTotal(185)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Single Relax Chair'); addToTotal(185)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod7.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -163,7 +163,7 @@
                             <p class="text-lg text-slate-400"><span>185.00</span> TK</p>
                         </div>
                     </div>
-                    <div onclick="addProductEntry('Children play'); addToTotal(299)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Children play'); addToTotal(299)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod8.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -178,7 +178,7 @@
                             <p class="text-lg text-slate-400"><span>299.00</span> TK</p>
                         </div>
                     </div>
-                    <div onclick="addProductEntry('Flexible Sofa'); addToTotal(399)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
+                    <div onclick="addProduct('Flexible Sofa'); addToTotal(399)" class="card w-[280px] bg-base-100 shadow-xl text-center px-4 py-8 bg-white cursor-pointer">
                         <figure class="w-4/5 mx-auto bg-slate-50 p-5 rounded-lg"><img src="images/prod9.png" alt="" />
                         </figure>
                         <div class="card-body p-0">
@@ -197,51 +197,59 @@
             </div>
 
         </div>
-        <div class="p-2 md:w-2/4 lg:w-3/12">
-            <div class="card card-compact  bg-base-100 shadow-xl border border-black p-5 mt-5 mb-5 lg:mt-0">
-                <h3 class="text-2xl text-black font-semibold mb-2 ">Have coupon?</h3> 
-                <div>
-                    <div class="flex">
-                        <input onclick="couponCode(this)" id="cupon-code" type="text" class="w-full p-2 border rounded-l" placeholder="Coupon code">
-                        <button onclick="couponCodeBtn()" id="apply-btn" class=" btn btn-secondary  text-white p-2 rounded-l px-3 capitalize  " disabled>Apply</button>
-                    </div>
-                    
+        <div class="w-4/6 bg-white p-2 md:w-2/4 lg:w-3/12">
+            <div class=" shadow-xl rounded-md border border-yellow-600 p-5 mt-5 mb-5 lg:mt-0">
+                <p class="text-lg font-bold text-black">Have coupon?</p>
+                <div class="flex my-4">
+                    <!-- coupon input field -->
+                    <input type="text" id="coupon-input" placeholder="Coupon Code"
+                        class="px-4 py-2 bg-transparent border rounded-tl-lg rounded-bl-lg">
+                    <!-- apply coupon btn -->
+                    <button id="apply-btn"
+                        class="text-white font-bold bg-[#E527B2] px-3 py-2 rounded-tr-lg rounded-br-lg "
+                        onclick="applyCoupon()" disabled>Apply</button>
                 </div>
             </div>
             
-            <div class="card card-compact  bg-base-100 shadow-xl border border-black p-5 lg:mt-0">
-                <h3 id="total" class="text-lg font-semibold text-gray-400">Card Item List:</h3>
-                    <div class="mb-5" id="item-list-div">   
-                        
-                    </div>
-                    <hr>
-                    <div class="mb-5 mt-5" id="item-price-div">   
-                        <h3 class="text-lg font-bold text-black mb-2">Total price: <span id="total-price" class="text-gray-600 ">00</span> <span class="text-gray-600 ">Tk </span></h3>
-                        <h3 class="text-lg font-bold text-black mb-2">Discount: <span id="discount" class="text-gray-600 ">00</span> <span class="text-gray-600 ">Tk </span></h3>
-                        <h3 class="text-lg font-bold text-black mb-2">Total: <span id="total-p" class="text-gray-600 ">00</span> <span class="text-gray-600 ">Tk </span></h3>
-                    </div>
-                    <hr>
-                    <div>
-                        <button onclick="makePurchaseBtn.showModal()" id="make-purchase" class="btn btn-secondary w-full text-white mt-5 mb-0 capitalize " disabled >Make Purchase</button>
+            <div class="bg-white p-4 rounded-lg shadow-xl border border-yellow-600">
+                
+                <div id="cart-product-list" class="text-lg font-semibold">
 
-                        
-                        <dialog id="makePurchaseBtn" class="modal modal-bottom sm:modal-middle p-3">
-                            <form method="dialog" class="modal-box">
-                                <img src="./images/congo.png" alt="" class="mx-auto">
-                              <h3 class="font-bold  text-3xl md:text-4xl lg:text-4xl text-black text-center">Congratulations</h3>
-                              <p class="py-4 text-center">Your Purchase the product</p>
-                              <div class="modal-action">
-                                
-                                <button onclick="modalBtn()" class="btn btn-secondary text-white capitalize mb-8 mx-auto">Go Home</button>
-                              </div>
-                            </form>
-                          </dialog>
-                    </div>
+                </div>
+                <div class="w-full h-[1px] bg-slate-200 my-2"></div>
+                <div>
+                    <!-- main total price -->
+                    <p class="text-lg font-bold">Total Price : <span class="font-medium text-slate-400"
+                            id="main-price">00</span><span class="font-medium text-slate-400"> TK</span></p>
+                    <!-- discount amount -->
+                    <p class="text-lg font-bold">Discount : <span class="font-medium text-slate-400"
+                            id="discount-amount">00</span><span class="font-medium text-slate-400"> TK</span></p>
+                    <!-- discounted total price -->
+                    <p class="text-lg font-bold">Total : <span class="font-medium text-slate-400"
+                            id="discounted-total-price">00</span><span class="font-medium text-slate-400"> TK</span></p>
+                </div>
+                <div class="w-full h-[1px] bg-slate-200 my-2"></div>
+                <div>
+                    <!-- make purchase btn -->
+                    <button id="purchase-btn" disabled
+                        class="text-white font-bold bg-[#E527B2] px-4 py-2 rounded-lg w-[90%] mx-4 btn"
+                        onclick="my_modal_2.showModal()">Make Purchase</button>
+                    <dialog id="my_modal_2" class="modal">
+                        <form method="dialog" class="modal-box bg-white text-center py-14">
+                            <img src="images/congo.png" alt="" class="w-1/4 mx-auto">
+                            <h3 class="font-bold text-3xl mt-4">Congratulations</h3>
+                            <p class="py-4 text-slate-400">Your Purchase the product</p>
+                            <!-- go home btn -->
+                            <button id="go-home-btn" class="text-white font-bold bg-[#E527B2] px-4 py-2 rounded-lg mx-4">Go Home</button>
+                        </form>
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+                    </dialog>
+                </div>
             </div>
-            
-
-              
         </div>
+
 
    </main>
   <script src="js/DOM.js"></script>
